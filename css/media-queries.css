@@ -1,0 +1,37 @@
+@media screen and (min-width:576px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+}
+@media screen and (max-width:576px) {
+}
+.nav-links {
+    list-style: none;
+    background-color: grey;
+}
+h1 {
+    text-align: center;
+}
+
+.header-img>img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /*margin: 5px;*/
+}
+.alert-info {
+    background-color: cyan;
+    border: grey thin solid;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+.alert-info>a {
+    text-decoration: none;
+    /*padding: 15px 0 15px 0;*/
+}
+
