@@ -62,8 +62,15 @@ margin-top: 10px;
 }
 
 footer {
-font-size: small;
+    font-size: small;
+    clear: both;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 @media screen and (min-width:576px) {
     body {
         margin: 15px
@@ -106,14 +113,12 @@ font-size: small;
     footer {
         clear: both;
         margin-left: 10px;
-    }
-    footer {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
-    .social-media i {
 
-    }
+
 }
 @media screen and (max-width:576px) {
 }
