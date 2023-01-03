@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+max-width: 950px;
+height: 100vh;
+}
+
 .nav-links {
 list-style: none;
 display: flex;
@@ -63,8 +72,20 @@ margin-top: 10px;
 
 footer {
 font-size: small;
+clear: both;
+margin-left: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+bottom: 0;
 }
-@media screen and (min-width:576px) {
+
+#social-media-links i {
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 576px) {
     body {
         margin: 15px
     }
@@ -100,21 +121,10 @@ font-size: small;
         vertical-align: top;
 
     }
+
     .hidden-on-desktop {
         display: none;
     }
-    footer {
-        clear: both;
-        margin-left: 10px;
-    }
-    footer {
-        display: flex;
-        justify-content: space-between;
-    }
-    .social-media i {
 
-    }
-}
-@media screen and (max-width:576px) {
 }
 
